@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/send"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Moyenne App"
+            android:textSize="36sp" />
+
+        <EditText
+            android:id="@+id/note1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:inputType="number"
+            android:text="1ere note"
+            android:textColor="#00BCD4" />
+
+        <EditText
+            android:id="@+id/note2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00BCD4"
+            android:ems="10"
+            android:inputType="number"
+            android:text="2 eme note"
+            android:textColor="#00BCD4" />
+
+        <EditText
+            android:id="@+id/note3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00BCD4"
+            android:ems="10"
+            android:inputType="number"
+            android:text="3 eme note"
+            android:textColor="#00BCD4" />
+
+        <Button
+            android:id="@+id/calculer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="calcul"
+            android:text="Calculer" />
+
+
+    </LinearLayout>
+</LinearLayout>
